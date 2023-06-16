@@ -68,7 +68,6 @@ function login() {
   
 // CheckBox Function
 function goFurther(){
-  console.log("fknkdnkksd")
   event.preventDefault();
   let obj={
     name:"",
@@ -94,6 +93,10 @@ function goFurther(){
   localStorage.setItem("name", JSON.stringify(obj));
   localStorage.setItem("email", email1.value);
   localStorage.setItem("password", password1.value);
+  setTimeout(()=>{
+    window.location.href="index.html";
+  },[5000])
+ 
 
 }
 
