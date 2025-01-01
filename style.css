@@ -98,6 +98,7 @@ nav ul li a:hover {
 }
 .logo img{
 	width: 120px;
+	height: 50px;
 	cursor: pointer;
 	transition: all 1s;
 }
@@ -774,7 +775,7 @@ form textarea {
 footer {
 	color: #E5E8EF;
 	background: #000D;
-	padding: 50px 0; 
+	padding: 40px 0; 
 }
 footer .footer-container {
 	max-width: 1300px;
