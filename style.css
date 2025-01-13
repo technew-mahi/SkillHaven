@@ -450,9 +450,11 @@ a, button {
 	border-radius: 10px;
 	border-style: none;
 	border: 1px solid black;
-	padding: 9px 25px;
+	padding: 9px 65px;
 	cursor: pointer;
 	transition-duration: .4s;
+	border-radius: 6px;
+	margin-left: 10rem;
 }
 #detail a {
 	bottom: 80px;
@@ -912,4 +914,8 @@ footer .btn:hover {
 	.feedbox form input, .feedbox form .fname{
 		width: 100%;
 	}
+}
+
+.profileDiv {
+	width: 44rem !important;
 }
